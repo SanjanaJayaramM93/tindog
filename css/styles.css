@@ -1,0 +1,142 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center; 
+   
+    }
+    h2{
+        line-height:1.5;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        color: #8f8f8f;
+    }
+    /*title section*/
+#title{
+    background-color: #ff4c68;
+    color: white;
+   
+  }
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.heading1{
+       font-weight: bold;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    text-align: left;
+  }
+
+.navbar{
+padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+   }
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+.dog{
+    position: absolute;
+    right:30%;
+      width: 350px;
+      height: 750px;
+      transform: rotate(25deg);
+}
+/*feature section*/
+#features{
+   background-color: #fff;
+    padding: 7% 10%;
+    position: relative;
+   
+}
+.feature-box{
+  }
+
+
+.feature-icon{
+    color:#ef8172;
+       margin-bottom: 1rem;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+/* Testimonial section */
+#testimonials{
+
+background-color: #ef8172;
+color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    margin:20px;
+    border-radius:100%;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding : 7% 15%;
+}
+/*pricing*/
+#pricing{
+padding:100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.pricing-btn{
+    width:100%;
+}
+
+/* call to action */
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15% ;
+    
+    
+}
+.cta-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: 'Montserrat'; 
+    font-weight: bold;
+    color: #fff;
+}
+/* footer */
+#footer{
+    padding: 7% 15%;
+    
+}
+
+
+.footer-icon {
+    margin :20px 10px;
+   
+}
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .dog{
+        position: static;
+        transform: rotate(0);
+    }
+}
