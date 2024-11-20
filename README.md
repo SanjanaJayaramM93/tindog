@@ -1,1 +1,1 @@
-Website link: https://github.com/SanjanaJayaramM93/tindog
+Website link: https://sanjanajayaramm93.github.io/tindog/
